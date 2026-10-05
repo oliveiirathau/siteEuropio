@@ -173,6 +173,7 @@ tr:hover td {
 #fontes {
     background-color: #f4f6fc;
     padding: 50px 30px;
+    border-radius: 10px;
 }
 
 #fontes h2 {
@@ -320,13 +321,10 @@ tr:hover td {
         padding: 8px;
     }
 
-    .curiosidade {
-        margin: 25px 10px;
-        padding: 18px;
-    }
-
     #fontes {
         padding: 40px 20px;
+        margin: 20px 15px;
+        
     }
 
     .fontes a {
