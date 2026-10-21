@@ -121,13 +121,31 @@ section p {
     box-shadow: 0 5px 18px rgba(29, 28, 83, 0.18);
 }
 
+
+
 .legenda {
-    text-align: center;
-    justify-content: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    line-height: 1.8;
+    text-align: center;
     color: #666;
     margin: 0 auto 30px;
     max-width: 500px;
+    overflow-wrap: anywhere;
+}
+
+.legenda a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #65589A;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+
+.legenda a:hover {
+    text-decoration: underline;
 }
 
 /* Tabelas*/
@@ -183,21 +201,30 @@ tr:hover td {
 .fontes {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 22px;
     max-width: 800px;
     margin: auto;
 }
 
-.fontes a {
-    color: #1d1c53;
-    text-decoration: none;
+.fonte p {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    transition: 0.2s;
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: #21202b;
 }
 
-.fontes a:hover {
-    color: #4a608e;
+.fonte a {
+    display: inline-block;
+    color: #65589A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     text-decoration: underline;
+    overflow-wrap: anywhere;
+}
+
+.fonte a:hover {
+    color: #2e0968;
 }
 
 /*Professores*/
